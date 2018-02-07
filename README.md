@@ -12,7 +12,7 @@ Include `UniboardMXChip.h` and create a client object:
 UniboardMXChip mxClient("25f6db34-9ff1-47f4-b7bb-000000fb2e23");
 
 // If the device does not need authentication, just omit the token.
-UniboardMXChip mxClient();
+UniboardMXChip mxClient;
 ```
 
 Send data through HTTP protocol (HTTPS is not supported):
